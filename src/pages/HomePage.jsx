@@ -62,17 +62,17 @@ const HomePage = () => {
 
             </div>
         </div>
-        <div className="bg-black text-white flex flex-wrap gap-8 py-10 px-4 text-xl font-sans font-semibold items-center">
-            <div className="">
+        <div className="view bg-black text-white flex flex-wrap gap-8 py-10 px-4 text-xl font-sans font-semibold items-center">
+            <div className="blocks">
                 <p>At SZNX, we craft bold and unique clothing for those who dare to stand out. From edgy designs to premium quality, we bring individuality to life. Stay unique, stay confident with Gorba.</p>
 
             </div>
-            <div className="w-full px-2">
+            <div className="blocks w-full px-2">
                 <div className="border-b-[1px] border-white flex items-center justify-between text-2xl font-bold py-3 px-1 mt-2">
                     <p>Shop</p>
                     <PlusIcon className='translate-y-2' />
                 </div>
-                <div className="border-b-[1px] border-white flex items-center justify-between text-2xl font-bold py-3 px-1 mt-2">
+                <div className=" border-b-[1px] border-white flex items-center justify-between text-2xl font-bold py-3 px-1 mt-2">
                     <p>Further Info</p>
                     <PlusIcon className='translate-y-2' />
                 </div>
@@ -81,7 +81,7 @@ const HomePage = () => {
                     <PlusIcon className='translate-y-2' />
                 </div>
             </div>
-            <div className="w-full px-4 flex flex-col gap-5">
+            <div className="blocks w-full px-4 flex flex-col gap-5">
                 <h2 className='text-2xl font-sans font-semibold'>Newsletter Sign Up</h2>
                 <p className='text-lg font-sans'>Receive our latest updates about our products & promotions.</p>
                 <div className="w-full flex gap-1">
@@ -95,6 +95,10 @@ const HomePage = () => {
                 </div>
 
             </div>
+            <div className="blocks w-full text-lg">
+                © 2025, Gorba Clothings. All rights reserved. Developed By Seventh Day Media & Solutions
+            </div>
+            <div className="h-24"></div>
 
 
         </div>
